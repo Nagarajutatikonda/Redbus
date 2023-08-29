@@ -11,7 +11,8 @@ const Redbustotaldata = [
   {
     Image: "https://www.redbus.in/bushire/static/mwebv2/home/2%20(2).svg",
     para: "See the Wide range of veheicles",
-    imagelink: "",
+    imagelink:
+      "https://purepng.com/public/uploads/large/purepng.com-red-busbusvehiclecarrying-passengerslarge-motor-vehiclecoachminibus-1701528460580qhzm6.png",
   },
   {
     Image: "https://www.redbus.in/bushire/static/mwebv2/home/3.svg",
@@ -26,10 +27,9 @@ function Booksteps() {
       {Redbustotaldata.map((x) => {
         return (
           <div className="card">
-            <img src={x.Image} alt="" />
+            <img width={"20px"} src={x.Image} alt="" />
             <p>{x.para} </p>
             <img src={x.imagelink} alt="" />
-            <img src={x.imagelink1} alt="" />
           </div>
         );
       })}

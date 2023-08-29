@@ -10,12 +10,10 @@
   border-radius: 5px;
   justify-content: space-between;
   height: 74px;
-  padding-right: 12px;
+  padding: 12px;
+  gap: 15px;
 }
 .img {
   height: 40px;
   width: 40px;
-}
-.imagelink1 {
-  animation: pulsate 2s infinite;
 }
